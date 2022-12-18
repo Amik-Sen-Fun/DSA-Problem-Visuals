@@ -3,7 +3,7 @@
 ## Topics
 - Backtracking 
 - Graph Traversals & related algos
-- Sorting 
+- Sorting Algorithms 
 - Binary Search 
 - Dynammic Programming
 ---
