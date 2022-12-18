@@ -1,0 +1,25 @@
+{
+  "name": "dsa-visualiser",
+  "version": "1.0.0",
+  "description": "A simple tool to display interesting DSA problems as Learnt",
+  "main": "logic.js",
+  "scripts": {
+    "test": "I can feel the logic developing ;)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amik-Sen-Fun/DSA-Problem-Visuals.git"
+  },
+  "keywords": [
+    "visualiser",
+    "javascript",
+    "OOPs",
+    "DSA"
+  ],
+  "author": "Amik Sen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amik-Sen-Fun/DSA-Problem-Visuals/issues"
+  },
+  "homepage": "https://github.com/Amik-Sen-Fun/DSA-Problem-Visuals#readme"
+}
