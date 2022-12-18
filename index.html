@@ -11,13 +11,65 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="styles.css?v=1.0">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <!-- your content here... -->
-  
+  <h1>Visualizer for Interesting DSA Questions with there fundamental concepts</h1>
+  <button class="accordion"><h2>Backtracking</h2></button>
+    <div class="panel">
+        <ul>
+            <h3>N Queens-Problem</h3>
+            <h3>Android Pattern Problem</h3>
+            <h3>Hamiltonian circuit problem</h3>
+          </ul>
+    </div>
+    <button class="accordion"><h2>Graph Traversals & related algos</h2></button>
+    <div class="panel">
+        <ul>
+            <h3>Yet To Study :)</h3>
+          </ul>
+    </div>
+    <button class="accordion"><h2>Sorting Algorithms </h2></button>
+    <div class="panel">
+        <ul>
+            <h3>Yet To Study :)</h3>
+          </ul>
+    </div>
+    <button class="accordion"><h2>Dynammic Programming</h2></button>
+    <div class="panel">
+        <ul>
+            <h3>Yet To Study :)</h3>
+          </ul>
+    </div>
+    <button class="accordion"><h2>Binary Search </h2></button>
+    <div class="panel">
+        <ul>
+            <h3>Yet To Study :)</h3>
+          </ul>
+    </div>
   <script src="logic.js"></script>
+  <script>
+      var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+  </script>
 </body>
 </html>
