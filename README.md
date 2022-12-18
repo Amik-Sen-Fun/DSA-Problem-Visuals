@@ -1,6 +1,6 @@
 # DSA-Problem-Visuals
 
-Repo for implementing interesting DSA problems in Reacr or some interesting new framework 
+Repo for implementing interesting DSA problems in Reacr or some interesting new framework :p 
 
 ## Topics
 - Backtracking 
